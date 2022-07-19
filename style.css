@@ -18,6 +18,7 @@ h4 {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 87px 120px 63px;
 }
 .labelTitle {
