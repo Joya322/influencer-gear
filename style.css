@@ -10,16 +10,26 @@
   background-color: #ffffff;
   box-sizing: border-box;
 }
+.container {
+  margin: 0 120px 100px;
+}
+h1 {
+  font-size: 52px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
 h4 {
   font-size: 24px;
   font-weight: 700;
 }
 /* common styles end */
+
+/* header start */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 87px 120px 63px;
+  margin: 87px 120px 41px;
 }
 .labelTitle {
   color: #3a3a3a;
@@ -48,3 +58,44 @@ header {
 #cart i {
   font-size: 24px;
 }
+/* header end */
+
+/*-------------
+ main start 
+--------------*/
+
+/* banner section start */
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 133px;
+}
+.bannerDesc {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.btn{
+  padding: 10px 24px;
+  text-decoration: none;
+  border-radius: 41px;
+}
+.btn, .arrow {
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    
+}
+.bannerImg {
+  padding: 30px 33px 31px 2px;
+}
+.bannerImg img {
+  width: 440px;
+  height: 414px;
+}
+/* banner section end */
+
+/*-------------
+ main end 
+--------------*/
